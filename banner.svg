@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 480" role="img" aria-label="EMBERWING key art">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c0b2e"/>
+      <stop offset=".38" stop-color="#471737"/>
+      <stop offset=".66" stop-color="#8c2b33"/>
+      <stop offset=".88" stop-color="#d95425"/>
+      <stop offset="1" stop-color="#ff8b3d"/>
+    </linearGradient>
+    <linearGradient id="lava" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd23d"/>
+      <stop offset=".3" stop-color="#ff7a1a"/>
+      <stop offset=".7" stop-color="#d92b1f"/>
+      <stop offset="1" stop-color="#6e0f0c"/>
+    </linearGradient>
+    <linearGradient id="rock" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#191022"/>
+      <stop offset=".45" stop-color="#543a63"/>
+      <stop offset=".6" stop-color="#3c2849"/>
+      <stop offset="1" stop-color="#120a18"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffaa3c" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#ffaa3c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd23d"/>
+      <stop offset=".55" stop-color="#ff7a1a"/>
+      <stop offset="1" stop-color="#e8491d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="480" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#ffe9d1">
+    <circle cx="120" cy="60" r="2"/><circle cx="300" cy="110" r="1.4"/><circle cx="520" cy="50" r="2.2"/>
+    <circle cx="760" cy="90" r="1.5"/><circle cx="980" cy="45" r="2"/><circle cx="1160" cy="120" r="1.6"/>
+    <circle cx="210" cy="170" r="1.2"/><circle cx="640" cy="150" r="1.4"/><circle cx="1080" cy="180" r="1.3"/>
+  </g>
+
+  <!-- sun -->
+  <circle cx="950" cy="150" r="150" fill="url(#halo)"/>
+  <circle cx="950" cy="150" r="52" fill="#ffb35c" opacity=".9"/>
+
+  <!-- ridges -->
+  <path d="M0 300 L90 240 L180 292 L290 220 L400 288 L520 236 L640 296 L760 228 L880 292 L1000 244 L1120 300 L1280 250 L1280 480 L0 480 Z" fill="#3d1538" opacity=".9"/>
+  <path d="M0 340 L140 288 L260 336 L390 280 L530 340 L670 292 L800 344 L930 288 L1060 342 L1200 296 L1280 330 L1280 480 L0 480 Z" fill="#2a0e2b"/>
+
+  <!-- pipes -->
+  <g>
+    <rect x="330" y="-10" width="96" height="200" fill="url(#rock)"/>
+    <rect x="318" y="172" width="120" height="30" fill="#6a4a78" stroke="#0f0816" stroke-width="3"/>
+    <path d="M378 0 q8 40 -6 80 q-10 40 4 74" stroke="#ff6a1a" stroke-width="4" fill="none" opacity=".7"/>
+    <rect x="330" y="300" width="96" height="140" fill="url(#rock)"/>
+    <rect x="318" y="298" width="120" height="30" fill="#6a4a78" stroke="#0f0816" stroke-width="3"/>
+    <path d="M378 332 q-8 36 6 66 q8 30 -2 42" stroke="#ff6a1a" stroke-width="4" fill="none" opacity=".7"/>
+  </g>
+  <g>
+    <rect x="1040" y="-10" width="96" height="120" fill="url(#rock)"/>
+    <rect x="1028" y="92" width="120" height="30" fill="#6a4a78" stroke="#0f0816" stroke-width="3"/>
+    <rect x="1040" y="360" width="96" height="80" fill="url(#rock)"/>
+    <rect x="1028" y="358" width="120" height="30" fill="#6a4a78" stroke="#0f0816" stroke-width="3"/>
+  </g>
+
+  <!-- lava -->
+  <rect x="0" y="430" width="1280" height="50" fill="url(#lava)"/>
+  <path d="M0 432 q40 -8 80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0" stroke="#ffeca8" stroke-width="3" fill="none" opacity=".8"/>
+
+  <!-- embers -->
+  <g fill="#ffc857">
+    <circle cx="240" cy="400" r="3" opacity=".9"/><circle cx="600" cy="380" r="2.4" opacity=".8"/>
+    <circle cx="840" cy="405" r="3.2" opacity=".9"/><circle cx="1180" cy="390" r="2.2" opacity=".8"/>
+    <circle cx="480" cy="360" r="2" opacity=".7"/><circle cx="720" cy="330" r="2.6" opacity=".75"/>
+  </g>
+
+  <!-- the bird -->
+  <g transform="translate(640 258)">
+    <circle r="86" fill="url(#halo)"/>
+    <path d="M-16 -6 q-26 -6 -44 6 q20 4 34 12 q-24 2 -36 14 q18 2 36 2 q-14 10 -16 22 q16 -6 30 -16 Z" fill="#ff3d2e"/>
+    <path d="M-12 0 q-20 2 -30 12 q16 0 28 4 Z" fill="#ff7a1a"/>
+    <path d="M-4 -8 q-18 -26 6 -32 q10 12 6 30 Z" fill="#e8491d"/>
+    <ellipse rx="24" ry="19" fill="url(#body)" stroke="#5c1602" stroke-width="3"/>
+    <ellipse cx="4" cy="7" rx="12" ry="8" fill="#fff1c9"/>
+    <path d="M-2 -16 q2 -12 6 -2 q3 -12 8 -2 q2 -10 6 0 q-8 4 -20 4 Z" fill="#ff3d2e"/>
+    <circle cx="12" cy="-5" r="6" fill="#fff"/>
+    <circle cx="14" cy="-5" r="3" fill="#20101c"/>
+    <circle cx="15" cy="-6.4" r="1.1" fill="#fff"/>
+    <path d="M21 -2 L33 2 L21 7 Z" fill="#ffb020" stroke="#8a4a00" stroke-width="1.6"/>
+  </g>
+
+  <!-- title -->
+  <text x="640" y="78" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="64" letter-spacing="6" fill="#ffc857" stroke="#5c1602" stroke-width="2">EMBERWING</text>
+  <text x="640" y="108" text-anchor="middle" font-family="Verdana, sans-serif" font-size="16" letter-spacing="10" fill="#ffeeda" opacity=".85">VOLCANIC FLAP · 100% OFFLINE</text>
+</svg>

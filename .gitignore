@@ -1,5 +1,13 @@
+# dependencies
 node_modules/
-.next/
+
+# build output (regenerate with `npm run build` — it's a single file)
 dist/
-build/
+
+# editor / OS noise
+.DS_Store
 *.log
+.idea/
+.vscode/
+.next/
+build/
