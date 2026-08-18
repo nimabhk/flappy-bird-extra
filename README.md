@@ -17,7 +17,6 @@ runs over `http(s)` *or* straight from disk (`file://`), forever.
 |---|---|
 | **From disk** | Just **double-click `index.html`** — it *is* the complete game. Works offline, no build, no server |
 | **Dev server** | `npm install && npm run dev` |
-| **GitHub Pages** *(optional)* | Push `index.html` to a `gh-pages` branch — the game goes live at `https://<you>.github.io/flappy-bird-extra` (see below) |
 
 ## Controls
 
