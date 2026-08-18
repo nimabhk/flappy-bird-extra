@@ -89,21 +89,8 @@ banner.svg          ← this README's key art
 - WebAudio synthesis for every SFX and the themed ambience beds
 - Responsive layout: full-bleed portrait on phones, framed portrait on tablets, wide **16:10 arena** on desktop
 
-## Publishing to GitHub Pages (optional, ~1 minute)
-
-The root `index.html` is already the complete game, so publishing is trivial:
-
-```bash
-git checkout --orphan gh-pages
-git rm -rf --cached .
-git add index.html
-git commit -m "deploy: playable build"
-git push origin gh-pages
-git checkout main
-```
-
-Then in the repo: **Settings → Pages → Branch: `gh-pages`**. Done — your game is live at
-`https://<you>.github.io/flappy-bird-extra` and playable from any device.
+The game is live at
+`https://nimabhk.github.io/flappy-bird-extra` and playable from any device.
 
 ## License
 
