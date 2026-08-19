@@ -998,7 +998,7 @@ function die(){
   state.phase="dying";
   holding=false;dieT=0;
   vy=-330*s;shake=1;flash=1;
-  sfx.hit();sfx.die(state.skin);sfx.fall();
+  sfx.hit();sfx.die(state.skin);
   burst(bx,by,26,SK.cols.tail.concat(["#fff1c9"]),340);
   if(state.score>state.best){
     state.best=state.score;
